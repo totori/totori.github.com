@@ -11,7 +11,7 @@ body {
   font-family: Georgia, serif;
   width: 900px;
   margin: 0 auto;
-  background: #fff url(/assets/img/bg-top.png) no-repeat top;
+  background: #fff url(/assets/img/bg-top.png) repeat-x top;
   position: relative;
 }
 
