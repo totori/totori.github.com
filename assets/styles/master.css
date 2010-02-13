@@ -1,0 +1,164 @@
+/* 
+Totori - User Acceptance Testing Workbench
+http://totori.org/ - MIT License
+*/
+
+html {
+  background: #faf6f6;
+}
+
+body {
+  font-family: Georgia, serif;
+  width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+h1, h2, h3 {
+  color: #512;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+a {
+  color: #512;
+}
+
+/* Title */
+
+#title {
+  background: url(http://github.com/totori/totori.github.com/raw/master/assets/img/totori_logo.png) no-repeat left;
+  display: block;
+  padding: 5em 0 2em 10em;
+  margin-left: 2em;
+  float: left;
+}
+
+/* Menu */
+
+#menu {
+  position: absolute;
+  right: 0;
+  display: block;
+}
+#menu ul {
+}
+#menu ul li {
+  float: left;
+  background: #fff;
+  width: 180px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #eb7;
+}
+#menu ul li a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+}
+#menu ul li span {
+  color: #512;
+  font-size: 0.7em;
+  padding: 1px 1px 1px 5px;
+}
+#menu ul li:hover {
+  background: #fec;
+  border-bottom: 3px solid #512;
+}
+#menu ul li:hover * {
+}
+
+/* Downloads */
+
+#downloads {
+  position: absolute;
+  right: 0;
+  top: 6em;
+  float: right;
+  background: #eb7;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-right: 0.7em;
+  width:16.6em;
+}
+#downloads .title {
+  color: #512;
+  font-weight: bold;
+  padding: 0.3em 0.3em;
+}
+#downloads ul {
+  
+}
+#downloads ul li {
+  padding: 0.3em;
+  background: #fec;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin: 0.3em;
+}
+#downloads ul li a {
+}
+#downloads ul li span {
+  font-size: 0.7em;
+}
+#downloads ul li .size:before {
+  content: '('
+}
+#downloads ul li .size:after {
+  content: ')'
+}
+#downloads ul li:hover {
+  background: #fff;
+}
+#downloads ul li:hover * {
+  color: #000;
+}
+
+/* Body */
+
+#body {
+  clear: both;
+  margin-right: 17em;
+  padding: 0 1em 1em 1em;
+}
+h3 {
+  padding: 1.5em 0 0.5em 0;
+}
+p {
+  padding-top: 0.5em;
+}
+#body ul {
+  margin-left: 0.5em;
+  list-style-position:inside;
+}
+#body ul li {
+  margin-top: 0.3em;
+}
+#body ul li:first-child {
+  margin-top: 0.8em;
+}
+
+/* Vertical */
+
+#vertical {
+  float: right;
+  width: 16em;
+  margin-right:-17em;
+}
+
+/* Footer */
+
+footer {
+  clear: both;
+  background: #fec;
+  border-top: 3px solid #eb7;
+  padding: 0.5em;
+}

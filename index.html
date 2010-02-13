@@ -3,16 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title>Totori - User Acceptance Testing Workbench</title>
-<style>
-body {
-  font-family: Verdana;
-  color: #612;
-}
-#logo {
-  text-align: center;
-  margin: 10em 0;
-}
-</style>
+<link rel="stylesheet" type="text/css" media="screen,projection" href="assets/styles/reset.css"> 
+<link rel="stylesheet" type="text/css" media="screen,projection" href="assets/styles/master.css"> 
 <script>
   if(window.location.hostname=='totori.github.com') {
     document.location.href = 'http://totori.org/';
@@ -29,11 +21,83 @@ body {
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
     })();
   </script>
-  <section id="logo">
-    <h1>Totori</h1>
-    <img src="http://totori.github.com/assets/img/totori_logo.png"/>
-    <p>Web Testing Evolved.</p>
-    <p>soon...</p>
+  <header>
+    <div id="title">
+      <h1>Totori</h1>
+      <h2>Web Testing. Evolved.</h2>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="http://wiki.github.com/totori/totori/">Wiki</a>
+          <span>Detailed documentation</span>
+        </li>
+        <li>
+          <a href="http://totori.lighthouseapp.com/home">Lighthouse</a>
+          <span>Issue tracker</span>
+        </li>
+        <li>
+          <a href="http://github.com/totori/totori">Contribute</a>
+          <span>Get involved &amp; help it grow</span>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <nav id="downloads">
+    <p class="title">Download</p>
+    <ul>
+      <li>
+        <a href="http://github.com/totori/totori/downloads">Totori workbench</a>
+        <span class="version">v0.0.4</span>
+        <span class="size">32.9 MB</span>
+      </li>
+      <li>
+        Totori server
+        <span class="version">not released yet</span>
+      </li>
+    </ul>
+  </nav>
+  <section id="body">
+    <section id="vertical">
+      <h3>Open source</h3>
+      <p>Totori is open source and is licensed under the <a href="http://en.wikipedia.org/wiki/MIT_License">MIT license</a>.</p>
+      <p>Its source code can be found on <a href="http://github.com/totori/totori">github</a>.</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a href="http://wiki.github.com/totori/totori/">Documentation</a></li>
+        <li><a href="http://totori.lighthouseapp.com/home">Issues, bugs</a></li>
+        <li><a href="http://github.com/totori/totori">Source code</a></li>
+        <li><a href="http://github.com/totori/totori-workbench/tree/master/assets/features/plugins/">Plugins</a></li>
+      </ul>
+    </section>
+    <h3>What is Totori?</h3>
+    <p>Totori is an automated User Acceptance testing workbench.</p>
+    <h3>Features</h3>
+    <p>Totor <i><span title="All of these features aren't implemented yet.">aims</span></i> to regroup the following features:</p>
+    <ul>
+      <li>Behavior-driven testing</li>
+      <li>Automated browser interaction</li>
+      <li>One-click non regression testing of Web applications</li>
+      <li>Test reports with screenshots &amp; video captures</li>
+    </ul>
+    <h3>Other Test Automation Tools</h3>
+    <p>There is a bunch of other test automation tools. Here is a non exhaustive list:</p>
+    <ul>
+      <li><a href="">HP QuickTest Professional</a></li>
+      <li><a href="">IBM Rational Functional Tester</a></li>
+      <li><a href="">Rational robot</a></li>
+      <li><a href="">Selenium</a></li>
+      <li><a href="">SilkTest</a></li>
+      <li><a href="">TestComplete</a></li>
+      <li><a href="">TestPartner</a></li>
+      <li><a href="">Watir</a></li>
+    </ul>
+    <h3>Why is Totori better?</h3>
+    <p>Totori is the first behavior-driven automated browser testing workbench.</p>
+    <p>It lowers the pain of testing and brings quality in the process.</p>
   </section>
+  <footer>
+    <span>Totori - Web Testing. Evolved.</span>
+  </footer>
 </body>
 </html>
