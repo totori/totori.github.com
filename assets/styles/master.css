@@ -11,7 +11,7 @@ body {
   font-family: Georgia, serif;
   width: 900px;
   margin: 0 auto;
-  background: #fff;
+  background: #fff url(assets/img/bg-top.png) no-repeat top;
   position: relative;
 }
 
@@ -35,7 +35,7 @@ a {
 /* Title */
 
 #title {
-  background: url(http://github.com/totori/totori.github.com/raw/master/assets/img/totori_logo.png) no-repeat left;
+  background: url(assets/img/totori_logo.png) no-repeat left;
   display: block;
   padding: 5em 0 2em 10em;
   margin-left: 2em;
@@ -161,5 +161,9 @@ footer {
   clear: both;
   background: #fec;
   border-top: 3px solid #eb7;
-  padding: 0.5em;
+  padding: 0.5em 1em;
+}
+
+footer span {
+  font-size: 0.7em;
 }
