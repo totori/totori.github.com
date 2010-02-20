@@ -170,6 +170,31 @@ p {
   margin-right:-17em;
 }
 
+#screenshots {
+  list-style-type: none;
+  margin-left: 0;
+  padding-top: 0.5em;
+}
+#screenshots li {
+  display: inline;
+  margin-right: 5px;
+}
+#screenshots>li:before {
+  display: none;
+}
+#body #screenshots {
+  list-style-type: none;
+}
+#screenshots a {
+  text-decoration: none;
+}
+#screenshots img {
+  -webkit-box-shadow: 4px 4px 7px #aaa;
+}
+#lightbox-image {
+  -webkit-box-shadow: 0px 0px 24px #aaa;
+}
+
 /* Footer */
 
 footer {
