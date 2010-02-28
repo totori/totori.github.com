@@ -63,12 +63,15 @@ a {
 }
 #menu ul li a {
   display: block;
-  font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
   padding: 5px;
 }
-#menu ul li span {
+#menu ul li a.entry {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#menu ul li span.info {
   color: #512;
   font-size: 0.7em;
   padding: 1px 1px 1px 5px;
