@@ -70,6 +70,7 @@ a {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 1px 1px 1px 5px;
 }
 #menu ul li span.info {
   color: #512;
