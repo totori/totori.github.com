@@ -62,7 +62,7 @@ iframe {
   position: absolute;
   top: 100px;
   right: 20px;
-  border-top: 1px solid #96d1f8;
+  border-top: 1px solid #f8d196;
   background: #7a5928;
   background: -webkit-gradient(linear, left top, left bottom, from(#d7a965), to(#7a5928));
   background: -moz-linear-gradient(top, #d7a965, #7a5928);
